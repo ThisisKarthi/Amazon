@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.044497">
+    <testcase classname="Customer can Purchase Products" name="HomePage" time="19.758791">
+        <system-out>
+            <![CDATA[Given user To Launch The Application Url....................................passed
+When user Can Select From The DropDown Categories...........................passed
+And user Can Enter The Products.............................................passed
+Then compare The DropDown Suggestion Select.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Customer can Purchase Products" name="Search_ResultPage" time="0.285706">
+        <system-out>
+            <![CDATA[When counting The Results...................................................passed
+Then count The Number Of More Results.......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

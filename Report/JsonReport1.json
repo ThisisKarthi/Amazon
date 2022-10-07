@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "HomePage",
+        "description": "",
+        "id": "customer-can-purchase-products;homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4540317400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user To Launch The Application Url",
+            "match": {
+              "location": "StepDefinition.user_To_Launch_The_Application_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1748780700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Can Select From The DropDown Categories",
+            "match": {
+              "location": "StepDefinition.user_can_select_from_the_drop_down_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3482466400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Can Enter The Products",
+            "match": {
+              "location": "StepDefinition.user_can_enter_the_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9987226500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "compare The DropDown Suggestion Select",
+            "match": {
+              "location": "StepDefinition.compare_the_drop_down_suggestion_select()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Search_ResultPage",
+        "description": "",
+        "id": "customer-can-purchase-products;search-resultpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 121851900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "counting The Results.",
+            "match": {
+              "location": "StepDefinition.counting_The_Results()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163853600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "count The Number Of More Results.",
+            "match": {
+              "location": "StepDefinition.count_The_Number_Of_More_Results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer can Purchase Products",
+    "description": "",
+    "id": "customer-can-purchase-products",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/feature/Amazonstudy.feature"
+  }
+]
